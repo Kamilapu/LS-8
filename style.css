@@ -16,6 +16,7 @@ img {}
 .firstpage {
      max-width: 1440px;
      height: 100%;
+     margin-inline: auto;
      background-image: url(/img/rectangle1.svg);
 }
 
@@ -111,4 +112,71 @@ img {}
      line-height: 186%;
 
      padding: 13px 27px 31px 28px;
+}
+
+.container {}
+
+.greywatch {
+     max-width: 1440px;
+     margin: auto;
+     margin-bottom: 85px;
+}
+
+.popular {
+     max-width: 171px;
+     margin: auto;
+
+     color: #000;
+     text-align: center;
+     font-family: "League Spartan", sans-serif;
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 186%;
+}
+
+.model {
+     max-width: 285px;
+     margin: auto;
+     margin-bottom: 84px;
+
+     color: #000;
+     text-align: center;
+     font-family: "League Spartan", sans-serif;
+     font-size: 72px;
+     font-weight: 400;
+     line-height: 112.5%;
+}
+
+.image2 {
+     display: flex;
+     margin: auto;
+     margin-bottom: 67px;
+
+     max-width: 417px;
+     height: 630px;
+     background-image: url(img/rectangle2.svg);
+}
+
+.name_description2 {
+     max-width: 285px;
+     margin: auto;
+     margin-bottom: 17px;
+
+     color: #000;
+     text-align: center;
+     font-family: "League Spartan", sans-serif;
+     font-size: 32px;
+     font-weight: 400;
+}
+
+.description2 {
+     max-width: 532px;
+     margin: auto;
+
+     color: #161515;
+     text-align: center;
+     font-family: "League Spartan", sans-serif;
+     font-size: 32px;
+     font-weight: 300;
+     line-height: 155%;
 }
